@@ -8,18 +8,18 @@ module.exports = function(controller) {
 
         console.log('Loading sample web features...');
 
-        controller.hears(new RegExp('quick'), 'message', async (bot, message) => {
+        controller.hears(new RegExp('testing'), 'message', async (bot, message) => {
 
             await bot.reply(message,{
-                text: 'Here are some quick replies',
+                text: 'Here are some test replies',
                 quick_replies: [
                     {
-                        title: 'Foo',
-                        payload: 'foo',
+                        title: 'Testing',
+                        payload: 'test',
                     },
                     {
-                        title: 'Bar',
-                        payload: 'bar',
+                        title: 'Test number 2',
+                        payload: 'test2',
                     }
                 ]
             });
