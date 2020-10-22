@@ -6,9 +6,8 @@ const { BotkitConversation } = require("botkit");
 
 module.exports = function(controller) {
 
-    let typing = new BotkitConversation('typing', controller);
+    let typing = new BotkitConversation('start', controller);
 
-    // typing.say('I am going to type for a while now...');
     typing.addAction('typing');
 
     // start the typing indicator
@@ -16,7 +15,7 @@ module.exports = function(controller) {
     // trigger a gotoThread, which gives us an opportunity to delay the next message
     typing.addAction('next_thread','typing');
 
-    // typing.addMessage('typed!','next_thread');
+    typing.addMessage("Hello, I am Qixiang Chen's digital avatar", 'next_thread');
 
     // use the before handler to delay the next message 
     typing.before('next_thread',  async () => {

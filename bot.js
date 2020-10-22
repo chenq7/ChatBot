@@ -24,6 +24,9 @@ if (process.env.MONGO_URI) {
     });
 }
 
+const fs = require('fs');
+let rawdata = fs.readFileSync('./public/resume.json');
+global.resume = JSON.parse(rawdata);
 
 const adapter = new WebAdapter({});
 

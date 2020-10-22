@@ -14,7 +14,7 @@ module.exports = function(controller) {
                 text: 'Here are some test replies',
                 quick_replies: [
                     {
-                        title: 'Testing',
+                        title: 'Testing!',
                         payload: 'test',
                     },
                     {
