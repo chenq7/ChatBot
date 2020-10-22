@@ -1,0 +1,159 @@
+{
+  "basics": {
+    "name": "Qixiang Chen",
+    "title": "Software Engineer",
+    "picture": "",
+    "email": "qixiang100@gmail.com",
+    "phone": "(646) 736-9399",
+    "website": "http://chenq7.github.io",
+    "summary": "I am a software engineer that is passionate about problem solving and creating software that is functional, dynamic and visually appealing. I have experience building engaging web applications in Ruby on Rails, JavaScript, and HTML/CSS. I love building projects from the ground up and seeing all the pieces come together to create user friendly applications",
+    "location": {
+      "address": "336 East 16th Street",
+      "city": "Brooklyn",
+      "state": "New York",
+      "postalCode": "11226",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "LinkedIn": "http://www.linkedin.com/in/qixiang-chen/",
+        "Github": "https://github.com/chenq7",
+        "AngelList": "https://angel.co/u/qixiang-chen-1"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "VideoNight",
+      "summary": "A video-sharing platform inspired by Youtube that allows users to upload and share videos that other users can view, like, and comment on.",
+      "technologies": [
+        "Ruby on Rails",
+        "PostgreSQL",
+        "React",
+        "Redux",
+        "AWS",
+        "Heroku",
+        "HTML",
+        "CSS"
+      ],
+      "highlights": [
+        "Incorporated AWS S3 to store image and media uploads in the cloud, reducing server load time and improving the scalability of video services.",
+        "Applied MVC architecture with Rails polymorphic associations for likes on videos and comments to produce DRY code, improving scalability, and reducing the number of required tables by 20%.",
+        "Implemented a custom user authentication pattern with Bcrypt to store the hashed password in the database and using Secure Random module to generate and store session cookies on the browser to ensure persistent login.",
+        "Employed CSS3 Flexbox along with media queries to produce a responsive layout and created a custom modal framework using React component architecture allowing for efficient development of new forms."
+      ],
+      "github": "https://github.com/chenq7/VideoNight",
+      "link": "https://videonight.herokuapp.com"
+    },
+    {
+      "name": "CoinExplorer",
+      "summary": "Coin Explorer is a level based platform game where you get to play as a slime to collect all the coins to move on to the next level. The game will be over upon dying to obstacles (spikes, monsters, etc) and you can restart at the current level.",
+      "technologies": [
+        "JavaScript",
+        "Canvas",
+        "HTML",
+        "CSS"
+      ],
+      "highlights": [
+        "Developed a custom physics engine with velocity and gravity, leveraging conditional logic and Object Oriented Programming techniques to produce intuitive character movement and interactive gameplay.",
+        "Formulated a collision detection algorithm for sprite characters by integrating with keystroke event listeners to predict future player movement and to re-render the character to a previous position before the collision occurs.",
+        "Utilized HTML5 Canvas and JavaScript in order to render complex levels and character sprites for end user interaction."
+      ],
+      "github": "https://github.com/chenq7/CoinExplorer",
+      "link": "https://chenq7.github.io/CoinExplorer"
+    },
+    {
+      "name": "MinionWars",
+      "summary": "Minion Wars is a MERN stack project game that is centered around collecting, selling, and battling digital tokens called minions. Users are able to create an account, buy minions with gold, and use their army of minions to attack other players.",
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "HTML",
+        "CSS"
+      ],
+      "highlights": [
+        "Designed user authentication by encrypting user details with JSON Webtoken to be used with Axios to be decrypted with JWT-Decode library so that user information is securely transmitted to the database",
+        "Managed proper git workflow, handled merge conflicts, and assisted backend team with model validations, and frontend team with redux presentational components, ensuring deadlines are met for each feature",
+        "Adapted mongoose library to connect to MongoDB Atlas and included Validator.js library to check model validation for the inclusion of email and password upon login."
+      ],
+      "github": "https://github.com/chenq7/MinionWars",
+      "link": "https://minion-wars.herokuapp.com"
+    }
+  ],
+  "work": [
+    {
+      "company": "Bo Hua Inc",
+      "position": "Restaurant Cashier",
+      "website": "",
+      "startDate": "May 2019",
+      "endDate": "Nov 2019",
+      "summary": "",
+      "highlights": [
+        "Demonstrated proficiency in answering and responding to hundreds of calls a night. Addressed concerned/upset customers rapidly through logical and analytical thinking", "Ensured that each customer received outstanding service by providing a friendly and supportive environment", "Consistently praised by management for attention to detail, exemplary customer service delivery, and willingness to assist coworkers with their tasks and duties"
+      ]
+    },
+    {
+      "company": "Brooklyn Elite Center",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "May 2015",
+      "endDate": "Aug 2015",
+      "summary": "",
+      "highlights": [
+        "Assisted teaching staff in preparing the classroom and lesson plans and kept students engaged, motivated, and focused during in-class lessons.", "Engaged ESL students on an individual basis and provided valuable feedback on their classwork and homework, resulting in an improvement of more than 10% of their grades", "Maintained a clean and safe workplace environment and ensured the full safety and security of students in the classroom and during field trips."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Rensselaer Polytechnic Institute",
+      "major": "Computer Science",
+      "minor": "Economics",
+      "Degree": "Bachelor's Degree",
+      "startDate": "August 2015",
+      "endDate": "May 2019"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Javascript",
+        "React.js",
+        "Ruby on Rails",
+        "Ruby",
+        "Redux",
+        "HTML",
+        "CSS",
+        "JQuery",
+        "PostgreSQL",
+        "Java",
+        "Python",
+        "C",
+        "MongoDB",
+        "Express.js",
+        "Node.js",
+        "SASS",
+        "RSpec"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+    { 
+      "name": "Chess" 
+    },
+    {
+      "name": "Gaming"
+    },
+    {
+      "name": "Music"
+    }
+  ]
+}
