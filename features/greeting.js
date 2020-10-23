@@ -86,11 +86,4 @@ module.exports = function (controller) {
     });
   });
 
-  controller.hears(async (message) => message.text && message.text.toLowerCase() === 'name', ['message'], async (bot, message) => {
-    let response = resume.basics.name;
-
-    await bot.beginDialog('typing');
-    await bot.reply(message, response);
-  });
-
 }
