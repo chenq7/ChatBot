@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Qixiang Chen",
+    "name": "My name is Qixiang Chen",
     "title": "Software Engineer",
     "picture": "",
-    "email": "qixiang100@gmail.com",
-    "phone": "(646) 736-9399",
-    "website": "http://chenq7.github.io",
-    "summary": "I am a software engineer that is passionate about problem solving and creating software that is functional, dynamic and visually appealing. I have experience building engaging web applications in Ruby on Rails, JavaScript, and HTML/CSS. I love building projects from the ground up and seeing all the pieces come together to create user friendly applications",
+    "email": "My email is qixiang100@gmail.com, feel free to reach out!",
+    "phone": "My phone number is (646) 736-9399",
+    "website": "My website is http://chenq7.github.io",
+    "summary": "I'm a software engineer that is passionate about problem solving and creating software that is functional, dynamic and visually appealing. I have experience building engaging web applications in Ruby on Rails, JavaScript, and HTML/CSS. I love listening to music, playing chess, and keeping up to date with the latest technologies",
     "location": {
       "address": "336 East 16th Street",
       "city": "Brooklyn",
@@ -14,13 +14,11 @@
       "postalCode": "11226",
       "countryCode": "US"
     },
-    "profiles": [
-      {
-        "LinkedIn": "http://www.linkedin.com/in/qixiang-chen/",
-        "Github": "https://github.com/chenq7",
-        "AngelList": "https://angel.co/u/qixiang-chen-1"
+    "profiles": {
+        "LinkedIn": "My LinkedIn profile is http://www.linkedin.com/in/qixiang-chen/",
+        "Github": "My Github profile is https://github.com/chenq7",
+        "AngelList": "My AngelList profile is https://angel.co/u/qixiang-chen-1"
       }
-    ]
   },
   "projects": [
     {

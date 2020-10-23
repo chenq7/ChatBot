@@ -13,11 +13,11 @@ module.exports = function(controller) {
     //     await bot.reply(message, `Echo: ${ message.text }`);
     // });
 
-    controller.hears(async (message) => message.text && message.text.toLowerCase() === 'name', ['message'], async (bot, message) => {
-        let response = resume.basics.name;
+    // controller.hears(async (message) => message.text && message.text.toLowerCase() === 'name', ['message'], async (bot, message) => {
+    //     let response = resume.basics.name;
 
-        await bot.reply(message, response);
+    //     await bot.reply(message, response);
 
-        await bot.beginDialog('basics');
-    });
+    //     await bot.beginDialog('basics');
+    // });
 }
